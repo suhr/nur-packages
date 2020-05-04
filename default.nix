@@ -17,4 +17,5 @@
   augr = pkgs.callPackage ./pkgs/augr { };
   rosie = pkgs.luaPackages.callPackage ./pkgs/rosie { };
   pcem = pkgs.callPackage ./pkgs/pcem { };
+  ciao = pkgs.callPackage ./pkgs/ciao { };
 }
