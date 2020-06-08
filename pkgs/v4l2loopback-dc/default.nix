@@ -32,7 +32,7 @@ stdenv.mkDerivation rec {
   meta = with stdenv.lib; {
     description = "V4L2 loopback device module for DroidCam";
     homepage = "https://github.com/aramg/droidcam";
-    license = licenses.unfree;
+    license = licenses.gpl2;
     maintainers = [ maintainers.suhr ];
     platforms = platforms.linux;
   };
