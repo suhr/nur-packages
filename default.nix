@@ -6,7 +6,6 @@ rec {
   overlays = import ./overlays; # nixpkgs overlays
 
   cadabra2 = pkgs.callPackage ./pkgs/cadabra2 { };
-  mathics = pkgs.callPackage ./pkgs/mathics { };
   minimal-sddm-theme = pkgs.callPackage ./pkgs/minimal-sddm-theme { };
   _31key = pkgs.callPackage ./pkgs/31key { };
   mimi = pkgs.callPackage ./pkgs/mimi { };
