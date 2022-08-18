@@ -18,4 +18,5 @@ rec {
   ssb-patchbay = pkgs.callPackage ./pkgs/ssb-patchbay { };
   frame = pkgs.callPackage ./pkgs/frame { };
   why3 = pkgs.callPackage ./pkgs/why3 { };
+  pianoteq-stage = pkgs.callPackage ./pkgs/pianoteq-stage { };
 }
