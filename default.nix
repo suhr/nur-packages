@@ -10,7 +10,6 @@ rec {
   mimi = pkgs.callPackage ./pkgs/mimi { };
   quake3-data = pkgs.callPackage ./pkgs/quake3-data { };
   augr = pkgs.callPackage ./pkgs/augr { };
-  ciao = pkgs.callPackage ./pkgs/ciao { };
   iosevka-term = pkgs.callPackage ./pkgs/iosevka/term.nix { };
   frame = pkgs.callPackage ./pkgs/frame { };
   # why3 = pkgs.callPackage ./pkgs/why3 { };
