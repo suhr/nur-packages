@@ -18,7 +18,4 @@ rec {
   pharo = pkgs.callPackage ./pkgs/pharo { };
   glamoroustoolkit = pkgs.callPackage ./pkgs/glamoroustoolkit { };
   dvorak = pkgs.callPackage ./pkgs/dvorak { };
-  arcan = pkgs.callPackage ./pkgs/arcan/package.nix { };
-  xarcan = pkgs.callPackage ./pkgs/xarcan/package.nix { arcan = arcan; };
-  durden = pkgs.callPackage ./pkgs/durden/package.nix { };
 }
